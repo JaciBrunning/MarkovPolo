@@ -12,10 +12,6 @@ module MarkovPolo
     end
 
     def push content
-      push_sentence(content)
-    end
-
-    def push_sentence sentence
       last = START_TOKEN
       sentence.split.each do |word|
         add_member last, word
@@ -58,6 +54,6 @@ module MarkovPolo
       total.join " "
     end
 
-    private :add_member, :push_sentence
+    private :add_member
   end
 end
