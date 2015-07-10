@@ -1,5 +1,5 @@
 module MarkovPolo
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
 
   class Chain
     START_TOKEN = "__start__"
