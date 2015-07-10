@@ -9,9 +9,7 @@ module MarkovPolo
       @data = hash
     end
 
-    def << content
-      push content
-    end
+    def << content; push content; end
 
     def push content
       last = START_TOKEN
@@ -28,17 +26,9 @@ module MarkovPolo
       @data[last][word] += 1
     end
 
-    def to_h
-      @data
-    end
-
-    def to_hash
-      to_h
-    end
-
-    def load hash
-      @data = hash
-    end
+    def to_h; @data; end
+    def to_hash; to_h; end
+    def load hash; @data = hash; end
 
     def generate
       last = START_TOKEN
