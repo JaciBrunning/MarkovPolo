@@ -1,7 +1,7 @@
 # Markov Polo
 A No Bullshit™, Super-Tiny Markov Chain engine in Pure Ruby  
 
-[![Build Status](https://travis-ci.org/JacisNonsense/MarkovPolo.svg)](https://travis-ci.org/JacisNonsense/MarkovPolo) [![Coverage Status](https://coveralls.io/repos/JacisNonsense/MarkovPolo/badge.svg?branch=master&service=github)](https://coveralls.io/github/JacisNonsense/MarkovPolo?branch=master) [![Code Climate](https://codeclimate.com/github/JacisNonsense/MarkovPolo/badges/gpa.svg)](https://codeclimate.com/github/JacisNonsense/MarkovPolo)
+[![Build Status](https://travis-ci.org/JacisNonsense/MarkovPolo.svg)](https://travis-ci.org/JacisNonsense/MarkovPolo) [![Gem Version](https://badge.fury.io/rb/markov-polo.svg)](http://badge.fury.io/rb/markov-polo) [![Coverage Status](https://coveralls.io/repos/JacisNonsense/MarkovPolo/badge.svg?branch=master&service=github)](https://coveralls.io/github/JacisNonsense/MarkovPolo?branch=master) [![Code Climate](https://codeclimate.com/github/JacisNonsense/MarkovPolo/badges/gpa.svg)](https://codeclimate.com/github/JacisNonsense/MarkovPolo)
 ## Getting Started
 Getting started is very simple. First, install the Gem:
 ```

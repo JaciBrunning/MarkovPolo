@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'markovpolo/version'
+require 'markov-polo'
 
 Gem::Specification.new do |spec|
   spec.name          = "markov-polo"
@@ -9,9 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["JacisNonsense"]
   spec.email         = ["jaci.brunning@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A No Bullshit Markov Chain Generator in Pure Ruby}
+  spec.homepage      = "http://github.com/JacisNonsense/MarkovPolo"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -23,10 +22,12 @@ Gem::Specification.new do |spec|
   # end
 
   spec.bindir        = "bin"
-  spec.files = Dir.glob("lib/**/*") + ['Rakefile', 'goruby.gemspec', 'Gemfile', 'Rakefile']
+  spec.files = Dir.glob("lib/**/*") + ['Rakefile', 'markov-polo.gemspec', 'Gemfile', 'Rakefile']
   spec.executables   = []
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "test-unit"
+  spec.add_development_dependency "coveralls"
 end

@@ -15,7 +15,7 @@ module MarkovPolo
 
     def push content
       last = START_TOKEN
-      sentence.split.each do |word|
+      content.split.each do |word|
         add_member last, word
         last = word
       end
